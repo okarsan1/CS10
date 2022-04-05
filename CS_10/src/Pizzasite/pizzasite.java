@@ -11,13 +11,13 @@ public static void main(String[] args)
         double cost = 0.0;
         
         // Display instructions
-        System.out.println("\nEnter the size of the pizza(diameter): ");
+        System.out.println("Enter the size of the pizza in inches: ");
         size = sc.nextDouble();
         
         // Calculate total cost
         cost = ((.05 * size * size) + 1 + .75);
         
         // Output the total
-        System.out.println("Total cost: $" + cost);
+        System.out.println("\nTotal cost: $" + cost);
     }
 }
