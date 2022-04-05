@@ -5,7 +5,8 @@ public class pizzasite
 public static void main(String[] args) 
 {
 		   // Declare variables
-        Scanner sc = new Scanner(System.in);
+        @SuppressWarnings("resource")
+		Scanner sc = new Scanner(System.in);
         double size = 0.0;
         double cost = 0.0;
         
