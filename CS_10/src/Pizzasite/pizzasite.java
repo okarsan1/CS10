@@ -1,5 +1,14 @@
 package Pizzasite;
 import java.util.Scanner;
+/*
+Program: pizzasite.java         
+ Date: April 1, 2022
+Author: Omar Karsan 
+School: CHHS
+Course: Computer Science 10
+ 
+
+*/
 public class pizzasite 
 {
 public static void main(String[] args) 
@@ -21,3 +30,9 @@ public static void main(String[] args)
         System.out.println("\nTotal cost: $" + cost);
     }
 }
+/* Screen Dump
+
+Enter the size of the pizza in inches:
+Total cost:
+
+ */

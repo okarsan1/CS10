@@ -1,16 +1,13 @@
+package BingoCard;
 /*
-
-Program: ${frommetoyou}.java          Date: ${04-01-2022}
-
-
+Program: bingocard.java         
+ Date: April 1, 2022
 Author: Omar Karsan 
 School: CHHS
 Course: Computer Science 10
  
 
 */
-package BingoCard;
-
 public class bingocard 
 {
 
@@ -28,7 +25,11 @@ public class bingocard
 }
 /* Screen Dump
 
-
-
+B I N G O
+1 2 3 4 5
+6 7 free 9 10
+10 11 12 13 14 
+15 16 17 18 19 
+20 21 22 23 24
 
  */
