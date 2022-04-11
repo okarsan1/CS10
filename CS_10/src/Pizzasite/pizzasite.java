@@ -20,6 +20,7 @@ public static void main(String[] args)
         double cost = 0.0;
         
         // Display instructions
+        
         System.out.println("Enter the size of the pizza in inches: ");
         size = sc.nextDouble();
         
