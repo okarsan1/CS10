@@ -10,7 +10,7 @@ Course: Computer Science 10
 public class digits {
 	public static void main(String[] args)
 	{
-	     @SuppressWarnings("resource")
+	     
 		Scanner userinput = new Scanner(System.in);
 	System.out.println("Enter the change you have: ");
 	     int change = userinput.nextInt();
