@@ -11,6 +11,7 @@ public class digits {
 	public static void main(String[] args)
 	{
 	     
+		@SuppressWarnings("resource")
 		Scanner userinput = new Scanner(System.in);
 	System.out.println("Enter the change you have: ");
 	     int change = userinput.nextInt();
@@ -26,6 +27,10 @@ public class digits {
 	}
 
 /* Screen Dump
-
+Enter the change you have:
+he change you provided is:
+Quarters:
+Dimes:
+Nickels:
 */
 
