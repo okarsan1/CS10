@@ -20,8 +20,8 @@ package assingment8;
 			     int tens = 0;
 			    int ones = 0;
 
-			    //Prompt user to input 2 digit number           
-			    System.out.print("Enter your 2 digit number: ");
+			    //Prompt user to input 2 digit number  
+			    System.out.println("Enter your 2 digit number:");
 			    int number = input.nextInt();
 
 			if (number <= 99 && number > 10)   // Checking condition for two digit number

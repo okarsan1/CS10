@@ -22,7 +22,7 @@ public static void main(String[] args)
     int ones = 0;
 
     //Prompt user to input 3 digit number           
-    System.out.print("Enter your 3 digit number: ");
+    System.out.println("Enter your 3 digit number:");
     int number = input.nextInt();
 
 if (number <= 999 && number > 99)   // Checking condition for three digit number
