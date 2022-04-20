@@ -1,4 +1,4 @@
-package assignment6;
+package credit4;
 /*
 Program: Assignment6.java         
  Date: April 7, 2022

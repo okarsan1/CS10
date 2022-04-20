@@ -1,13 +1,14 @@
-package Digits;
+package credit4;
 import java.util.Scanner;
 /*
-Program: digits.java         
+Program: assinment7.java         
  Date: April 7, 2022
 Author: Omar Karsan 
 School: CHHS
 Course: Computer Science 10
 */
-public class digits {
+public class assinment7 {
+
 	public static void main(String[] args)
 	{
 	     

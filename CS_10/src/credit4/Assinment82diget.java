@@ -1,4 +1,4 @@
-package assingment8;
+package credit4;
 	import java.util.Scanner;
 
 	/*

@@ -15,15 +15,15 @@ public class Cr3GUI {
 
 	private JFrame frame;
 	private JTextField fn;
-	private JTextField textField_1;
-	private JTextField textField_2;
-	private JTextField textField_3;
-	private JTextField textField_4;
+	private JTextField ln;
+	private JTextField ag;
+	protected JLabel dis;
 
 	/**
 	 * Launch the application.
 	 */
 	public static void main(String[] args) {
+		
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
@@ -54,7 +54,7 @@ public class Cr3GUI {
 		
 		JPanel panel = new JPanel();
 		panel.setForeground(Color.BLACK);
-		panel.setBounds(0, 0, 434, 261);
+		panel.setBounds(10, 0, 434, 261);
 		frame.getContentPane().add(panel);
 		panel.setLayout(null);
 		
@@ -68,57 +68,38 @@ public class Cr3GUI {
 		panel.add(fn);
 		fn.setColumns(10);
 		
-		JLabel ln = new JLabel("last name");
-		ln.setBounds(10, 70, 46, 14);
+		JLabel lnl = new JLabel("last name");
+		lnl.setBounds(10, 70, 46, 14);
+		panel.add(lnl);
+		
+		ln = new JTextField();
+		ln.setBounds(66, 67, 86, 20);
 		panel.add(ln);
+		ln.setColumns(10);
 		
-		textField_1 = new JTextField();
-		textField_1.setBounds(66, 67, 86, 20);
-		panel.add(textField_1);
-		textField_1.setColumns(10);
+		JLabel agl = new JLabel("age");
+		agl.setBounds(10, 104, 46, 14);
+		panel.add(agl);
 		
-		JLabel ag = new JLabel("age");
-		ag.setBounds(10, 104, 46, 14);
+		ag = new JTextField();
+		ag.setBounds(66, 101, 86, 20);
 		panel.add(ag);
-		
-		textField_2 = new JTextField();
-		textField_2.setBounds(66, 101, 86, 20);
-		panel.add(textField_2);
-		textField_2.setColumns(10);
+		ag.setColumns(10);
 		
 		JButton sb = new JButton("Submit");
 		sb.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				String fnl = fn.getText();
-				dis.setText("first name"+ fnl);
+			String fn= fnl.setText("");
+			String ln=  lnl.setText("");
+			String ag=  agl.setText("");
 		
 			}
 		});
-		sb.setBounds(313, 149, 89, 23);
+		sb.setBounds(278, 53, 89, 23);
 		panel.add(sb);
 		
-		JLabel hby = new JLabel("hobby");
-		hby.setHorizontalAlignment(SwingConstants.LEFT);
-		hby.setBounds(10, 171, 48, 14);
-		panel.add(hby);
-		
-		JLabel shl = new JLabel("school");
-		shl.setHorizontalAlignment(SwingConstants.LEFT);
-		shl.setBounds(10, 135, 48, 14);
-		panel.add(shl);
-		
 		JButton rs = new JButton("reset");
-		rs.setBounds(313, 195, 89, 23);
+		rs.setBounds(278, 100, 89, 23);
 		panel.add(rs);
-		
-		textField_3 = new JTextField();
-		textField_3.setColumns(10);
-		textField_3.setBounds(66, 132, 86, 20);
-		panel.add(textField_3);
-		
-		textField_4 = new JTextField();
-		textField_4.setColumns(10);
-		textField_4.setBounds(66, 168, 86, 20);
-		panel.add(textField_4);
 	}
 }
