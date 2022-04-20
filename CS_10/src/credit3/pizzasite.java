@@ -1,4 +1,4 @@
-package Pizzasite;
+package credit3;
 import java.util.Scanner;
 /*
 Program: pizzasite.java         

@@ -1,4 +1,4 @@
-package FromMeToYou;
+package credit3;
 /*
 Program: frommetoyou.java         
  Date: April 1, 2022

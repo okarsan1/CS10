@@ -1,4 +1,4 @@
-package MyIntials;
+package credit3;
 /*
 Program: myintials.java          
 Date: April 1, 2022

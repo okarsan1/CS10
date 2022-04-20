@@ -1,4 +1,4 @@
-package BingoCard;
+package credit3;
 /*
 Program: bingocard.java         
  Date: April 1, 2022
