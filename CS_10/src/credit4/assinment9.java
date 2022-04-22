@@ -13,12 +13,12 @@ public class assinment9 {
 		 int secondint = userinput.nextInt(); //grab and store number
 
 
-System.out.println(firstint + " / " + secondint + " = " + firstint / secondint +"\n"); // print out answer and calculate equation
-System.out.println(firstint + " % " + secondint + " = " + firstint % secondint + "\n"); // print out answer and calculate equation
+System.out.println(firstint + " / " + secondint + " = " + firstint / secondint +"\n"); // display answer and calculate equation
+System.out.println(firstint + " % " + secondint + " = " + firstint % secondint + "\n"); // display out answer and calculate equation
 
 
-System.out.println(secondint + " / " + firstint + " = " + secondint / firstint + "\n"); // print out answer and calculate equation
-System.out.println(secondint + " % " + firstint + " = " + secondint % firstint + "\n"); // print out answer and calculate equation
+System.out.println(secondint + " / " + firstint + " = " + secondint / firstint + "\n"); // display out answer and calculate equation
+System.out.println(secondint + " % " + firstint + " = " + secondint % firstint + "\n"); // display out answer and calculate equation
 
 }
 	}
