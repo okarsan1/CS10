@@ -22,5 +22,9 @@ System.out.println(secondint + " % " + firstint + " = " + secondint % firstint +
 
 }
 	}
+/* Screen Dump
+Enter an integer:
+Enter a second interger:
+*/
 
 

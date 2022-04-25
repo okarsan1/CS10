@@ -23,3 +23,11 @@ public class EvenOrOdd {
 	}
 
 }
+/* Screen Dump
+Enter an interger:
+"its odd" 
+"its odd"
+
+*/
+
+
