@@ -1,3 +1,10 @@
+/*
+Program: assinment12.java         
+ Date: April 27, 2022
+Author: Omar Karsan 
+School: CHHS
+Course: Computer Science 10
+*/
 package credit5;
 import java.util.Scanner;
 public class assinment12 {
