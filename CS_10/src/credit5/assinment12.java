@@ -9,10 +9,10 @@ package credit5;
 import java.util.Scanner;
 public class assinment12 {
 
-	public static void main(String[] args) 
-	{
-		@SuppressWarnings("resource")
-		Scanner grades = new Scanner(System.in);
+public static void main(String[] args)
+{
+@SuppressWarnings("resource")
+Scanner grades = new Scanner(System.in);
 
         int x = 0;
 
@@ -59,6 +59,6 @@ public class assinment12 {
              System.out.print("The corresponding letter grade is:F");
         }
         // so on and so forth down the grading scale
-	}
+}
 
 }
