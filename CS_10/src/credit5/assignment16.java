@@ -1,3 +1,11 @@
+/*
+Program: assinment16.java 
+        
+ Date: May 5, 2022
+Author: Omar Karsan 
+School: CHHS
+Course: Computer Science 10
+*/
 package credit5;
 import java.util.Scanner;
 public class assignment16
@@ -9,7 +17,8 @@ public class assignment16
 
            secretNumber = (int) (Math.random() * 19 + 1);          
 
-           Scanner keyboard = new Scanner(System.in);
+           @SuppressWarnings("resource")
+		Scanner keyboard = new Scanner(System.in);
 
            int guess;
 
@@ -41,3 +50,6 @@ public class assignment16
   
 
 }
+/* Screen Dump
+
+*/

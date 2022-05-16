@@ -46,4 +46,7 @@ public class assinment11 {
         	System.out.println("The average of the three digits is:" + (firstDig +secondDig+thirdDig)/3);
         	}
         	}
+/* Screen Dump
+
+*/
 

@@ -44,7 +44,7 @@ Course: Computer Science 10
 	        	 System.out.print("\nPrice per copy is:"+.27+"\n");
 	             System.out.print("\nTotal cost is:"+x*.27);
 	        }
-	         if (x <= 1000 && x >= 750){
+	          if (x <= 1000 && x >= 750){
 	        	 System.out.print("\nPrice per copy is:"+.26+"\n");
 	        	  System.out.print("\nTotal cost is:"+x*.26);
 	            
@@ -58,3 +58,6 @@ Course: Computer Science 10
 	        }
 	        // price per copy and total cost
 		}
+	/* Screen Dump
+
+	*/

@@ -1,3 +1,11 @@
+/*
+Program: assinment15.java 
+        
+ Date: May 5, 2022
+Author: Omar Karsan 
+School: CHHS
+Course: Computer Science 10
+*/
 package credit5;
 import java.util.Scanner;
 public class assinment15 {
@@ -50,5 +58,8 @@ public class assinment15 {
 	}
 
 }
+/* Screen Dump
+
+*/
 
 
